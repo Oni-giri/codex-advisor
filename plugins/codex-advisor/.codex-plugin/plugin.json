@@ -1,0 +1,18 @@
+{
+  "name": "codex-advisor",
+  "version": "0.1.0",
+  "description": "Independent background reviews with visible status and bounded correction passes.",
+  "author": {
+    "name": "Oni-giri"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Advisor",
+    "shortDescription": "A second perspective while Codex works.",
+    "longDescription": "Reviews Codex activity independently and shows concise findings directly in the CLI, with evidence and at most one correction pass.",
+    "developerName": "Oni-giri",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Show my Codex Advisor status and help me configure reviews."
+  }
+}

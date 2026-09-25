@@ -1,0 +1,20 @@
+{
+  "name": "codex-advisor",
+  "interface": {
+    "displayName": "Codex Advisor"
+  },
+  "plugins": [
+    {
+      "name": "codex-advisor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
